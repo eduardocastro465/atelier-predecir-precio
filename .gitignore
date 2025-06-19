@@ -1,0 +1,21 @@
+# Entornos virtuales
+myenv/
+.venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos del sistema (MacOS)
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
