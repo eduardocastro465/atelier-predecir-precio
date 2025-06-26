@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🌮 Predicción de Precio de Tacos</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: linear-gradient(to right, #fff8e1, #ffe0b2);
+        color: #4e342e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+        color: #d84315;
+        text-shadow: 1px 1px #ffe0b2;
+      }
+
+      form {
+        background-color: #fffaf0;
+        padding: 2rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        max-width: 480px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        font-weight: bold;
+        margin-bottom: 0.4rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+      }
+
+      input,
+      select {
+        padding: 0.6rem;
+        border: 1px solid #ccc5b9;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: border-color 0.3s, box-shadow 0.3s;
+      }
+
+      input:focus,
+      select:focus {
+        outline: none;
+        border-color: #ff9800;
+        box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3);
+      }
+
+      input[type="submit"] {
+        margin-top: 1.5rem;
+        background-color: #fb8c00;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #ef6c00;
+      }
+
+      #resultado {
+        margin-top: 1.8rem;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #2e7d32;
+      }
+    </style>
+
+    <script>
+      function predecirPrecio(event) {
+        event.preventDefault();
+
+        const formData = new URLSearchParams(
+          new FormData(document.querySelector("form"))
+        );
+
+        fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: formData.toString(),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            const resultado = document.getElementById("resultado");
+            resultado.innerText = data.error
+              ? "🚫 Error: " + data.error
+              : "💰 Precio estimado del taco: $" + data.precio_estimado;
+          })
+          .catch((error) => {
+            document.getElementById("resultado").innerText =
+              "🚨 Error en la solicitud.";
+            console.error("Error:", error);
+          });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>🌮 Estimador de Precio de Tacos</h1>
+    <form onsubmit="predecirPrecio(event)">
+      <label for="order_hour">⏰ Hora del Pedido (0–23)</label>
+      <input
+        type="number"
+        id="order_hour"
+        name="order_hour"
+        min="0"
+        max="23"
+        placeholder="Ej: 14"
+        required
+      />
+
+      <label for="taco_size">📏 Tamaño del Taco</label>
+      <select id="taco_size" name="taco_size" required>
+        <option value="" disabled selected>Selecciona un tamaño</option>
+        <option value="Large">Grande</option>
+        <option value="Regular">Regular</option>
+      </select>
+
+      <label for="taco_type">🌮 Tipo de Taco</label>
+      <select id="taco_type" name="taco_type" required>
+        <option value="" disabled selected>Selecciona un tipo</option>
+        <option value="Beef Taco">Res</option>
+        <option value="Chicken Taco">Pollo</option>
+        <option value="Fish Taco">Pescado</option>
+        <option value="Pork Taco">Cerdo</option>
+        <option value="Veggie Taco">Vegetariano</option>
+      </select>
+
+      <label for="toppings_count">➕ Número de Toppings (ingredientes )</label>
+      <input
+        type="number"
+        id="toppings_count"
+        name="toppings_count"
+        min="0"
+        placeholder="Ej: 3"
+        required
+      />
+
+      <label for="tip">💸 Propina ($)</label>
+      <input
+        type="number"
+        step="0.01"
+        id="tip"
+        name="tip"
+        min="0"
+        placeholder="Ej: 2.50"
+        required
+      />
+
+      <label for="weekend">📆 ¿Es fin de semana?</label>
+      <select id="weekend" name="weekend" required>
+        <option value="" disabled selected>Selecciona una opción</option>
+        <option value="0">No (Lunes a Viernes)</option>
+        <option value="1">Sí (Sábado o Domingo)</option>
+      </select>
+
+      <label for="weekday">📅 Día de la semana</label>
+      <select id="weekday" name="weekday" required>
+        <option value="" disabled selected>Selecciona el día</option>
+        <option value="0">Lunes</option>
+        <option value="1">Martes</option>
+        <option value="2">Miércoles</option>
+        <option value="3">Jueves</option>
+        <option value="4">Viernes</option>
+        <option value="5">Sábado</option>
+        <option value="6">Domingo</option>
+      </select>
+
+      <input type="submit" value="🔍 Predecir Precio" />
+    </form>
+
+    <p id="resultado"></p>
+  </body>
+</html>
