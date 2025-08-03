@@ -1,0 +1,866 @@
+producto_temporada,monto_total,tipo_transaccion,vestido_en_oferta,vestido_rating_promedio,vestido_review_count,mes_transaccion,cluster
+Todo el Año,500,Venta,False,3.5,3,6,1
+Todo el Año,1321,Venta,False,4.3,10,6,1
+Primavera,2300,Venta,False,4.6,10,9,0
+Invierno,1318,renta,False,3.9,8,6,1
+Todo el Año,800,renta,False,4.6,10,6,0
+Verano,875,renta,False,4.3,16,12,0
+Todo el Año,1153,renta,False,4.5,18,10,0
+Otoño,1700,Venta,False,4.6,8,10,0
+Todo el Año,390,renta,False,4.2,8,2,1
+Otoño,1050,Venta,False,3.9,6,5,1
+Todo el Año,750,renta,False,4.7,9,1,0
+Todo el Año,876,renta,False,4.0,9,2,1
+Primavera,1800,Venta,False,4.6,12,10,0
+Todo el Año,900,Venta,False,4.1,18,8,1
+Verano,385,renta,False,4.3,10,12,1
+Todo el Año,1000,renta,False,4.8,6,2,0
+Todo el Año,1950,Venta,False,4.6,9,5,0
+Todo el Año,328,renta,False,4.6,8,7,0
+Todo el Año,1500,renta,False,4.6,9,12,0
+Todo el Año,800,renta,False,4.6,10,7,0
+Todo el Año,1500,Venta,False,4.0,6,6,1
+Todo el Año,2500,renta,False,5.0,17,6,0
+Todo el Año,2600,Venta,False,4.7,10,8,0
+Verano,1150,Venta,False,4.1,10,4,1
+Todo el Año,680,renta,False,4.5,12,5,0
+Invierno,1202,renta,False,3.7,10,6,1
+Primavera,1397,renta,False,4.0,9,11,1
+Verano,1106,renta,False,4.2,12,6,1
+Todo el Año,2200,renta,False,5.0,16,12,0
+Invierno,1400,Venta,False,3.9,6,2,1
+Invierno,408,renta,False,3.9,7,3,1
+Todo el Año,5500,renta,False,4.9,20,1,3
+Todo el Año,1200,renta,False,4.9,11,12,0
+Todo el Año,950,renta,False,4.8,18,8,0
+Todo el Año,2000,renta,False,4.9,14,10,0
+Otoño,320,renta,False,4.0,6,5,1
+Todo el Año,420,renta,False,3.6,13,9,1
+Invierno,3996,Venta,False,4.7,16,4,0
+Todo el Año,15000,Venta,False,5.0,25,6,3
+Todo el Año,1190,renta,False,4.0,19,12,1
+Otoño,1080,renta,False,4.2,10,5,1
+Primavera,5550,Venta,False,4.1,7,5,1
+Invierno,918,renta,False,4.1,7,10,1
+Todo el Año,821,renta,False,4.4,9,4,0
+Todo el Año,1257,renta,False,4.4,11,12,0
+Otoño,795,renta,False,3.9,6,11,1
+Todo el Año,465,renta,False,4.5,12,12,0
+Verano,950,Venta,False,4.2,12,5,1
+Todo el Año,562,renta,False,4.3,9,4,1
+Todo el Año,2500,renta,False,5.0,17,7,0
+Todo el Año,1700,Venta,False,4.5,8,4,0
+Todo el Año,1800,renta,False,4.8,13,8,0
+Todo el Año,2100,renta,False,4.8,15,11,0
+Invierno,1128,renta,False,3.7,10,4,1
+Otoño,1223,renta,False,3.9,6,1,1
+Todo el Año,610,renta,False,4.0,8,12,1
+Verano,1420,renta,False,4.4,8,5,1
+Todo el Año,1118,renta,False,4.6,7,9,0
+Primavera,942,renta,False,4.7,14,12,0
+Todo el Año,1600,Venta,False,4.4,11,1,0
+Todo el Año,3035,Venta,False,4.3,10,5,0
+Otoño,791,renta,False,4.2,9,6,1
+Todo el Año,3804,Venta,False,4.8,13,3,0
+Primavera,1271,renta,False,4.1,12,1,1
+Verano,1444,renta,False,4.2,13,5,1
+Todo el Año,2500,renta,False,5.0,17,5,0
+Todo el Año,359,renta,False,3.6,13,12,1
+Todo el Año,597,renta,False,4.6,8,7,0
+Todo el Año,3886,Venta,False,4.9,7,12,0
+Primavera,969,renta,False,4.0,5,11,1
+Otoño,1300,Venta,False,4.2,10,12,1
+Otoño,1100,Venta,False,4.0,7,5,1
+Primavera,592,renta,False,3.7,14,11,1
+Todo el Año,454,renta,False,4.0,6,11,1
+Todo el Año,2800,renta,False,5.0,18,7,0
+Verano,850,Venta,False,4.5,20,7,0
+Todo el Año,2263,Venta,False,4.6,13,3,0
+Todo el Año,6800,renta,False,4.9,27,6,3
+Todo el Año,1950,Venta,False,4.7,11,7,0
+Todo el Año,20000,Venta,False,5.0,30,4,3
+Invierno,1107,renta,False,3.7,10,9,1
+Todo el Año,1267,renta,False,4.8,11,7,0
+Todo el Año,800,renta,False,4.6,10,10,0
+Todo el Año,15000,Venta,False,5.0,25,9,3
+Primavera,780,Venta,False,3.8,11,12,1
+Todo el Año,18000,Venta,False,5.0,28,12,3
+Otoño,1400,Venta,False,3.9,8,12,1
+Primavera,1255,renta,False,4.2,8,11,1
+Primavera,766,renta,False,3.8,11,5,1
+Todo el Año,1600,Venta,False,4.6,8,11,0
+Verano,3312,Venta,False,4.1,7,6,1
+Todo el Año,1400,Venta,False,4.3,8,7,1
+Todo el Año,623,renta,False,4.9,22,5,0
+Todo el Año,1445,renta,False,4.4,11,12,0
+Todo el Año,1350,renta,False,4.6,9,12,0
+Todo el Año,900,renta,False,4.8,12,8,0
+Todo el Año,300,renta,False,4.3,10,12,0
+Invierno,1111,renta,False,4.0,5,3,1
+Todo el Año,1056,renta,False,4.1,18,4,1
+Todo el Año,7500,renta,False,5.0,32,1,3
+Otoño,2699,Venta,False,4.0,6,8,1
+Primavera,1471,renta,False,3.9,22,1,1
+Primavera,900,Venta,False,4.1,14,6,1
+Todo el Año,2100,Venta,False,4.7,9,10,0
+Verano,450,renta,False,4.1,7,8,1
+Otoño,1307,renta,False,4.3,5,4,1
+Todo el Año,1950,Venta,False,4.7,11,8,0
+Todo el Año,1750,Venta,False,4.5,9,12,0
+Invierno,1325,renta,False,3.9,8,3,1
+Primavera,1400,Venta,False,4.8,20,8,0
+Invierno,1400,Venta,False,3.9,8,4,1
+Todo el Año,3800,Venta,False,4.9,14,8,0
+Primavera,429,renta,False,4.4,6,8,1
+Todo el Año,3991,Venta,False,4.6,9,3,0
+Primavera,987,renta,False,3.7,14,5,1
+Todo el Año,1850,Venta,False,4.5,12,2,0
+Todo el Año,5000,renta,False,5.0,25,12,3
+Primavera,662,renta,False,4.8,20,6,0
+Todo el Año,1557,Venta,False,4.9,11,11,0
+Otoño,1483,renta,False,3.8,12,12,1
+Todo el Año,2000,Venta,False,5.0,30,10,3
+Todo el Año,2200,Venta,False,5.0,32,6,3
+Verano,426,renta,False,4.0,10,7,1
+Primavera,2686,Venta,False,4.5,10,8,0
+Primavera,625,renta,False,4.3,15,5,1
+Todo el Año,7000,renta,False,5.0,30,1,3
+Primavera,970,renta,False,4.1,15,4,1
+Primavera,1300,Venta,False,4.4,6,6,1
+Todo el Año,2300,Venta,False,4.6,10,8,0
+Primavera,850,Venta,False,3.7,14,4,1
+Todo el Año,3808,Venta,False,4.8,13,6,0
+Todo el Año,17000,Venta,False,4.8,25,12,3
+Todo el Año,704,renta,False,3.6,10,12,1
+Todo el Año,658,renta,False,3.6,13,3,1
+Todo el Año,687,renta,False,4.6,9,10,0
+Todo el Año,2500,Venta,False,4.8,11,4,0
+Primavera,5550,Venta,False,4.1,7,6,1
+Todo el Año,750,Venta,False,3.6,10,9,1
+Primavera,1410,renta,False,4.2,8,7,1
+Primavera,733,renta,False,4.2,13,4,1
+Todo el Año,3600,Venta,False,4.7,19,7,0
+Todo el Año,650,renta,False,4.5,8,3,0
+Verano,1239,renta,False,4.1,10,2,1
+Primavera,1279,renta,False,4.1,18,12,1
+Todo el Año,4000,Venta,False,4.9,25,6,3
+Verano,450,renta,False,4.1,7,5,1
+Primavera,1800,Venta,False,4.7,10,4,0
+Otoño,599,renta,False,3.8,12,7,1
+Todo el Año,579,renta,False,3.9,17,6,1
+Invierno,460,renta,False,3.9,8,10,1
+Otoño,1149,renta,False,3.9,8,3,1
+Verano,12000,Venta,False,4.7,5,5,3
+Otoño,707,renta,False,3.5,15,8,1
+Invierno,442,renta,False,3.9,6,2,1
+Invierno,331,renta,False,4.1,7,8,1
+Verano,506,renta,False,4.2,12,7,1
+Todo el Año,1300,renta,False,4.7,8,5,0
+Todo el Año,878,renta,False,4.9,22,10,0
+Otoño,320,renta,False,4.0,6,4,1
+Otoño,311,renta,False,4.2,9,10,1
+Otoño,683,renta,False,4.3,5,5,1
+Todo el Año,1850,Venta,False,4.5,12,5,0
+Todo el Año,1800,renta,False,4.9,15,3,0
+Todo el Año,1300,renta,False,4.7,11,10,0
+Otoño,702,renta,False,4.5,9,7,0
+Otoño,1007,renta,False,4.3,5,4,1
+Todo el Año,2000,renta,False,4.8,13,4,0
+Todo el Año,700,renta,False,4.7,11,6,0
+Verano,954,renta,False,4.0,10,11,1
+Invierno,1350,Venta,False,3.9,7,6,1
+Todo el Año,600,renta,False,4.5,7,3,0
+Primavera,870,Venta,False,4.0,16,9,1
+Todo el Año,1500,renta,False,4.6,9,10,0
+Primavera,964,renta,False,3.7,14,7,1
+Todo el Año,3800,Venta,False,4.9,14,2,0
+Todo el Año,1100,renta,False,4.5,8,4,0
+Verano,450,renta,False,4.1,7,2,1
+Todo el Año,1120,renta,False,4.5,12,11,0
+Todo el Año,2300,Venta,False,4.6,10,3,0
+Otoño,967,renta,False,3.8,12,7,1
+Todo el Año,5500,renta,False,4.9,20,3,3
+Todo el Año,2500,renta,False,5.0,17,11,0
+Primavera,780,Venta,False,3.8,11,7,1
+Verano,421,renta,False,4.0,9,7,1
+Invierno,1092,renta,False,3.7,6,4,1
+Verano,652,renta,False,4.1,14,3,1
+Todo el Año,2000,renta,False,4.9,14,6,0
+Todo el Año,17000,Venta,False,4.8,25,4,3
+Todo el Año,1300,Venta,False,4.0,9,3,1
+Invierno,1400,Venta,False,3.9,6,6,1
+Verano,1050,Venta,False,4.2,13,12,1
+Invierno,1400,Venta,False,3.9,8,2,1
+Todo el Año,800,renta,False,4.8,15,5,0
+Todo el Año,3462,Venta,False,4.6,9,1,0
+Primavera,1490,renta,False,4.2,13,8,1
+Otoño,1300,Venta,False,4.2,10,11,1
+Verano,994,renta,False,4.7,15,10,0
+Todo el Año,774,renta,False,4.8,11,8,0
+Otoño,1150,Venta,False,3.8,9,6,1
+Verano,884,renta,False,4.1,10,5,1
+Todo el Año,1466,renta,False,4.0,9,5,1
+Todo el Año,6500,renta,False,5.0,28,2,3
+Invierno,1400,Venta,False,4.0,5,7,1
+Primavera,1411,renta,False,4.8,20,5,0
+Todo el Año,817,renta,False,4.3,8,8,1
+Verano,1100,Venta,False,4.3,10,3,1
+Invierno,1300,Venta,False,3.7,6,8,1
+Todo el Año,1800,Venta,False,4.4,9,8,0
+Verano,1289,renta,False,4.1,10,8,1
+Todo el Año,1035,renta,False,4.5,9,1,0
+Otoño,1350,renta,False,3.9,6,7,1
+Todo el Año,3200,Venta,False,4.9,11,2,0
+Todo el Año,900,Venta,False,4.1,18,7,1
+Todo el Año,1350,renta,False,4.6,9,10,0
+Todo el Año,2800,renta,False,5.0,18,8,0
+Todo el Año,782,renta,False,3.6,13,10,1
+Todo el Año,619,renta,False,4.0,9,9,1
+Todo el Año,1500,renta,False,4.9,14,12,0
+Primavera,1298,renta,False,4.0,5,4,1
+Invierno,869,renta,False,3.7,10,5,1
+Primavera,1400,Venta,False,4.4,14,7,0
+Todo el Año,881,Venta,False,4.8,15,2,0
+Todo el Año,750,renta,False,4.7,9,5,0
+Todo el Año,1437,renta,False,4.9,22,10,0
+Todo el Año,7500,renta,False,5.0,32,2,3
+Todo el Año,17000,Venta,False,4.8,25,12,3
+Todo el Año,7500,renta,False,5.0,32,8,3
+Verano,714,renta,False,4.7,5,12,0
+Primavera,1400,Venta,False,4.4,14,3,1
+Todo el Año,700,renta,False,4.7,11,3,0
+Otoño,1500,Venta,False,4.3,5,6,1
+Todo el Año,390,renta,False,4.2,8,3,1
+Primavera,982,renta,False,3.7,14,6,1
+Todo el Año,650,renta,False,4.5,8,9,0
+Primavera,943,renta,False,3.9,22,5,1
+Todo el Año,7500,renta,False,5.0,32,5,3
+Todo el Año,320,renta,False,4.6,13,11,0
+Otoño,320,renta,False,4.0,6,4,1
+Todo el Año,700,renta,False,4.7,11,4,0
+Primavera,550,renta,False,4.5,13,9,0
+Primavera,720,renta,False,4.4,6,5,1
+Primavera,1210,renta,False,3.7,14,7,1
+Verano,389,renta,False,4.0,9,6,1
+Todo el Año,20000,Venta,False,5.0,30,7,3
+Otoño,1700,Venta,False,4.6,8,6,0
+Otoño,1471,renta,False,3.9,11,8,1
+Todo el Año,1300,renta,False,4.7,8,6,0
+Todo el Año,2137,Venta,False,4.5,9,5,0
+Primavera,1800,Venta,False,4.6,12,2,0
+Otoño,1150,renta,False,4.2,10,12,1
+Verano,450,renta,False,4.1,7,2,1
+Verano,450,renta,False,4.1,7,2,1
+Otoño,422,renta,False,3.9,6,9,1
+Verano,383,renta,False,4.2,16,11,1
+Primavera,1189,renta,False,4.3,15,3,1
+Verano,1386,renta,False,4.5,20,6,0
+Verano,607,renta,False,4.2,10,3,1
+Invierno,305,renta,False,4.1,7,10,1
+Todo el Año,600,renta,False,4.5,7,4,0
+Primavera,1283,renta,False,4.2,8,6,1
+Todo el Año,8000,Venta,False,4.6,7,4,0
+Primavera,1200,Venta,False,4.3,15,6,1
+Todo el Año,1700,Venta,False,4.5,8,7,0
+Todo el Año,1500,Venta,False,4.3,9,6,1
+Otoño,2991,Venta,False,4.0,6,3,1
+Otoño,1000,Venta,False,4.2,9,7,1
+Primavera,750,Venta,False,3.8,4,3,1
+Todo el Año,950,renta,False,4.8,18,11,0
+Todo el Año,7000,renta,False,5.0,30,6,3
+Primavera,1000,Venta,False,4.1,12,7,1
+Todo el Año,1700,renta,False,4.7,10,3,0
+Todo el Año,1246,renta,False,4.9,22,9,0
+Verano,1083,renta,False,4.1,14,8,1
+Todo el Año,620,renta,False,4.0,8,2,1
+Invierno,878,renta,False,3.9,7,8,1
+Primavera,1341,renta,False,3.9,22,11,1
+Primavera,900,Venta,False,4.1,14,12,1
+Verano,1062,renta,False,4.2,10,4,1
+Primavera,950,Venta,False,4.1,18,3,1
+Verano,450,renta,False,4.1,7,11,1
+Verano,1900,Venta,False,4.7,15,6,0
+Todo el Año,18000,Venta,False,5.0,28,11,3
+Invierno,460,renta,False,4.7,16,10,0
+Primavera,382,renta,False,4.0,16,7,1
+Verano,1095,renta,False,4.0,9,11,1
+Todo el Año,800,renta,False,4.6,10,6,0
+Verano,450,renta,False,4.1,7,7,1
+Otoño,624,renta,False,4.2,9,7,1
+Primavera,484,renta,False,4.0,10,6,1
+Primavera,900,Venta,False,4.1,14,8,1
+Verano,369,renta,False,4.7,15,5,0
+Todo el Año,1600,renta,False,4.9,10,6,0
+Invierno,4496,Venta,False,4.7,16,1,0
+Todo el Año,1750,renta,False,4.7,10,7,0
+Todo el Año,850,renta,False,4.8,12,7,0
+Todo el Año,842,renta,False,4.0,8,8,1
+Todo el Año,852,renta,False,4.0,8,12,1
+Verano,310,renta,False,4.4,8,4,1
+Todo el Año,1068,renta,False,4.7,19,5,0
+Invierno,1300,Venta,False,3.7,6,11,1
+Primavera,465,renta,False,3.8,4,11,1
+Primavera,702,renta,False,4.2,13,12,1
+Verano,920,Venta,False,4.3,16,3,1
+Primavera,650,renta,False,4.7,10,9,0
+Todo el Año,1950,Venta,False,4.7,11,12,0
+Invierno,1350,Venta,False,3.7,10,10,1
+Primavera,532,renta,False,4.6,10,10,0
+Todo el Año,1600,Venta,False,4.6,8,5,0
+Primavera,650,renta,False,4.7,10,4,0
+Todo el Año,500,Venta,False,3.5,3,4,1
+Todo el Año,1097,renta,False,4.3,9,6,1
+Todo el Año,6000,renta,False,4.8,25,8,3
+Todo el Año,8000,Venta,False,4.6,7,3,0
+Todo el Año,300,renta,False,4.3,10,12,0
+Verano,1100,Venta,False,4.3,10,8,1
+Invierno,1450,Venta,False,4.0,6,11,1
+Todo el Año,1900,renta,False,4.9,11,6,0
+Todo el Año,19000,Venta,False,4.9,27,5,3
+Primavera,737,renta,False,4.0,16,12,1
+Todo el Año,2000,renta,False,4.8,13,12,0
+Todo el Año,1000,Venta,False,4.0,8,7,1
+Verano,1466,renta,False,4.1,14,5,1
+Todo el Año,1800,renta,False,4.9,15,8,0
+Todo el Año,750,renta,False,4.7,9,6,0
+Todo el Año,488,renta,False,4.1,18,2,1
+Todo el Año,458,renta,False,4.0,9,5,1
+Todo el Año,2244,Venta,False,4.6,7,11,0
+Todo el Año,18000,Venta,False,5.0,28,6,3
+Todo el Año,324,renta,False,4.6,9,4,0
+Primavera,790,renta,False,4.7,14,3,0
+Primavera,1327,renta,False,4.6,18,5,0
+Todo el Año,1650,Venta,False,4.5,7,4,0
+Todo el Año,1420,renta,False,4.5,12,4,0
+Todo el Año,390,renta,False,4.2,8,1,1
+Todo el Año,1500,Venta,False,4.0,6,8,1
+Otoño,992,renta,False,4.3,5,4,1
+Todo el Año,1000,renta,False,4.7,16,8,0
+Primavera,1053,renta,False,4.0,16,10,1
+Invierno,1450,Venta,False,4.0,6,7,1
+Primavera,908,renta,False,4.1,14,4,1
+Todo el Año,1291,renta,False,4.4,11,11,0
+Invierno,460,renta,False,4.7,16,8,0
+Todo el Año,4527,Venta,False,5.0,17,6,0
+Todo el Año,2392,Venta,False,5.0,18,12,0
+Todo el Año,3562,Venta,False,4.7,10,10,0
+Todo el Año,800,renta,False,4.6,10,4,0
+Primavera,1800,Venta,False,4.6,12,6,0
+Primavera,650,renta,False,4.7,10,11,0
+Todo el Año,2200,renta,False,5.0,16,3,0
+Todo el Año,3800,Venta,False,4.9,14,5,0
+Todo el Año,1800,renta,False,4.8,13,12,0
+Otoño,320,renta,False,4.0,6,5,1
+Invierno,761,renta,False,3.9,8,7,1
+Todo el Año,1300,renta,False,4.7,11,11,0
+Primavera,912,renta,False,4.4,14,12,0
+Primavera,1800,Venta,False,4.6,12,6,0
+Primavera,780,Venta,False,3.8,11,10,1
+Todo el Año,7500,renta,False,5.0,32,6,3
+Otoño,1000,Venta,False,4.2,9,3,1
+Invierno,460,renta,False,4.7,16,3,0
+Todo el Año,1435,renta,False,4.5,12,11,0
+Primavera,501,renta,False,4.2,8,7,1
+Todo el Año,4436,Venta,False,4.6,7,8,0
+Primavera,1800,Venta,False,4.7,10,7,0
+Primavera,850,Venta,False,3.7,14,7,1
+Primavera,322,renta,False,4.1,15,8,1
+Primavera,1200,Venta,False,4.0,9,7,1
+Todo el Año,2500,Venta,False,4.8,15,4,0
+Otoño,1031,renta,False,4.2,10,5,1
+Verano,450,renta,False,4.1,7,4,1
+Todo el Año,900,renta,False,4.7,14,5,0
+Invierno,1400,Venta,False,3.9,6,12,1
+Primavera,1281,renta,False,4.2,8,7,1
+Verano,1228,renta,False,4.2,10,3,1
+Otoño,727,renta,False,3.9,6,6,1
+Otoño,925,renta,False,3.5,15,5,1
+Primavera,1499,renta,False,4.6,10,6,0
+Primavera,1000,Venta,False,4.0,10,5,1
+Todo el Año,2600,Venta,False,4.8,12,1,0
+Otoño,907,renta,False,4.2,10,10,1
+Invierno,1300,Venta,False,3.7,6,4,1
+Todo el Año,1600,renta,False,4.9,10,5,0
+Verano,1252,renta,False,4.2,12,12,1
+Verano,1415,renta,False,4.5,20,11,0
+Primavera,780,Venta,False,3.8,11,4,1
+Primavera,664,renta,False,4.3,15,4,1
+Todo el Año,2500,Venta,False,4.8,11,4,0
+Primavera,950,Venta,False,4.1,18,12,1
+Primavera,387,renta,False,4.6,18,1,0
+Todo el Año,3966,Venta,False,4.8,13,11,0
+Primavera,1332,renta,False,4.0,16,12,1
+Todo el Año,2500,Venta,False,4.8,15,12,0
+Otoño,1500,Venta,False,4.3,5,9,1
+Primavera,600,renta,False,4.6,12,12,0
+Todo el Año,1900,renta,False,4.9,11,5,0
+Todo el Año,1300,renta,False,4.7,8,8,0
+Todo el Año,2100,renta,False,4.8,15,1,0
+Todo el Año,1480,renta,False,4.4,11,11,0
+Primavera,950,Venta,False,4.1,18,1,1
+Todo el Año,2800,renta,False,5.0,18,11,0
+Primavera,340,renta,False,4.5,10,8,0
+Primavera,598,renta,False,4.4,6,4,1
+Verano,1100,Venta,False,4.3,10,8,1
+Otoño,1150,Venta,False,3.8,9,7,1
+Todo el Año,6800,renta,False,4.9,27,8,3
+Primavera,579,renta,False,4.6,18,10,0
+Primavera,934,renta,False,4.4,6,8,1
+Invierno,1300,Venta,False,3.7,6,3,1
+Todo el Año,486,renta,False,4.3,8,5,1
+Invierno,1300,Venta,False,3.7,6,4,1
+Todo el Año,850,renta,False,4.8,12,1,0
+Todo el Año,950,renta,False,4.6,7,1,0
+Todo el Año,850,renta,False,4.7,10,1,0
+Todo el Año,750,renta,False,4.7,9,8,0
+Todo el Año,600,renta,False,4.5,7,12,0
+Todo el Año,2000,renta,False,4.8,13,12,0
+Verano,920,Venta,False,4.3,16,9,1
+Verano,308,renta,False,4.2,13,5,1
+Otoño,1329,renta,False,3.5,7,5,1
+Todo el Año,1800,renta,False,4.9,15,5,0
+Todo el Año,4000,Venta,False,4.9,25,12,3
+Invierno,399,renta,False,4.0,6,4,1
+Primavera,1200,Venta,False,4.2,8,4,1
+Todo el Año,6800,renta,False,4.9,27,6,3
+Todo el Año,1650,Venta,False,4.5,7,5,0
+Primavera,1800,Venta,False,4.7,10,7,0
+Todo el Año,700,renta,False,4.1,18,5,1
+Primavera,1300,Venta,False,4.4,6,7,1
+Todo el Año,1500,renta,False,4.9,7,4,0
+Todo el Año,2144,Venta,False,4.2,8,2,1
+Todo el Año,3200,Venta,False,4.8,20,5,0
+Primavera,902,renta,False,4.3,8,6,1
+Primavera,500,renta,False,4.4,6,1,1
+Todo el Año,18000,Venta,False,5.0,28,6,3
+Todo el Año,6000,renta,False,4.8,25,12,3
+Todo el Año,1100,renta,False,4.5,8,5,0
+Verano,1100,Venta,False,4.3,10,9,1
+Todo el Año,688,renta,False,4.3,8,5,1
+Todo el Año,1800,Venta,False,4.4,9,5,0
+Todo el Año,4000,Venta,False,4.9,25,7,3
+Todo el Año,1129,renta,False,4.7,19,5,0
+Invierno,1107,renta,False,3.7,10,7,1
+Todo el Año,800,renta,False,4.6,10,4,0
+Todo el Año,3938,Venta,False,4.2,8,10,1
+Todo el Año,2000,renta,False,4.8,13,5,0
+Verano,845,renta,False,4.0,9,11,1
+Primavera,600,renta,False,4.6,12,10,0
+Todo el Año,8000,Venta,False,4.6,7,10,0
+Invierno,1300,Venta,False,3.7,6,12,1
+Todo el Año,3200,Venta,False,4.9,11,4,0
+Otoño,328,renta,False,3.8,9,6,1
+Primavera,522,renta,False,4.1,12,6,1
+Todo el Año,2800,renta,False,5.0,18,11,0
+Primavera,941,Venta,False,4.5,10,5,1
+Todo el Año,900,renta,False,4.7,14,2,0
+Invierno,807,renta,False,4.1,7,1,1
+Otoño,789,renta,False,3.9,7,12,1
+Todo el Año,1300,renta,False,4.7,11,12,0
+Todo el Año,900,renta,False,4.8,12,8,0
+Primavera,1359,renta,False,3.8,4,10,1
+Todo el Año,600,renta,False,4.0,8,7,1
+Primavera,600,renta,False,4.6,12,7,0
+Verano,343,renta,False,4.2,10,4,1
+Todo el Año,1750,Venta,False,4.5,9,11,0
+Todo el Año,1300,renta,False,4.7,11,9,0
+Todo el Año,1800,renta,False,4.9,15,5,0
+Todo el Año,850,renta,False,4.8,12,11,0
+Todo el Año,600,renta,False,4.5,7,5,0
+Todo el Año,1728,Venta,False,4.6,13,5,0
+Todo el Año,1800,renta,False,4.8,13,4,0
+Otoño,538,renta,False,4.2,9,8,1
+Todo el Año,381,renta,False,4.8,20,12,0
+Primavera,1133,renta,False,3.8,4,6,1
+Todo el Año,3600,Venta,False,4.7,19,9,0
+Todo el Año,1255,renta,False,4.0,8,11,1
+Todo el Año,5000,renta,False,5.0,25,6,3
+Todo el Año,16000,Venta,False,4.9,20,3,3
+Todo el Año,1800,renta,False,4.8,13,4,0
+Todo el Año,900,renta,False,4.8,12,8,0
+Todo el Año,1400,renta,False,4.5,9,2,0
+Todo el Año,736,renta,False,3.5,3,4,1
+Todo el Año,800,renta,False,4.6,10,1,0
+Primavera,501,renta,False,4.1,14,6,1
+Todo el Año,6000,renta,False,4.8,25,5,3
+Todo el Año,950,renta,False,4.6,7,12,0
+Primavera,2500,Venta,False,4.0,5,4,1
+Primavera,883,renta,False,4.8,20,11,0
+Todo el Año,750,Venta,False,3.6,10,7,1
+Todo el Año,1500,renta,False,4.9,7,7,0
+Todo el Año,2600,Venta,False,4.8,12,6,0
+Primavera,1493,renta,False,4.2,13,6,1
+Todo el Año,20000,Venta,False,5.0,30,1,3
+Todo el Año,390,renta,False,4.2,8,1,1
+Otoño,1250,Venta,False,3.9,11,7,1
+Otoño,1105,renta,False,4.2,9,11,1
+Invierno,775,renta,False,4.0,6,9,1
+Otoño,985,renta,False,4.0,7,4,1
+Todo el Año,7500,renta,False,5.0,32,6,3
+Otoño,800,Venta,False,3.5,7,4,1
+Todo el Año,2999,Venta,False,4.9,10,6,0
+Todo el Año,2540,Venta,False,4.2,8,7,1
+Todo el Año,1700,renta,False,4.7,10,5,0
+Verano,1325,renta,False,4.4,8,6,1
+Primavera,373,renta,False,4.1,14,6,1
+Primavera,1481,renta,False,4.1,15,3,1
+Todo el Año,820,Venta,False,3.9,17,6,1
+Otoño,311,renta,False,3.9,8,8,1
+Invierno,679,renta,False,4.1,7,9,1
+Otoño,320,renta,False,4.0,6,1,1
+Otoño,320,renta,False,4.0,6,9,1
+Primavera,798,renta,False,4.1,18,10,1
+Verano,980,Venta,False,4.0,10,10,1
+Todo el Año,1200,renta,False,4.9,11,12,0
+Otoño,1250,Venta,False,3.9,11,4,1
+Otoño,1100,Venta,False,4.0,7,9,1
+Todo el Año,3200,Venta,False,4.8,20,5,0
+Primavera,968,renta,False,4.8,20,7,0
+Verano,1135,renta,False,4.2,13,10,1
+Primavera,550,renta,False,4.5,13,4,0
+Todo el Año,1200,renta,False,4.9,11,11,0
+Todo el Año,489,renta,False,4.0,8,11,1
+Otoño,1250,Venta,False,3.9,11,11,1
+Verano,920,Venta,False,4.3,16,6,1
+Todo el Año,820,Venta,False,3.9,17,1,1
+Todo el Año,3000,Venta,False,4.9,22,12,0
+Verano,461,renta,False,4.4,8,8,1
+Primavera,1200,Venta,False,4.2,8,1,1
+Primavera,345,renta,False,4.2,11,4,1
+Primavera,536,renta,False,4.7,14,1,0
+Verano,693,renta,False,4.2,16,3,1
+Todo el Año,1350,renta,False,4.6,9,7,0
+Todo el Año,1800,renta,False,4.8,13,9,0
+Todo el Año,850,renta,False,4.7,10,12,0
+Verano,354,renta,False,4.2,13,12,1
+Invierno,1450,Venta,False,4.0,6,5,1
+Primavera,500,renta,False,4.4,6,8,1
+Todo el Año,4318,Venta,False,4.9,14,5,0
+Primavera,453,renta,False,4.2,8,7,1
+Todo el Año,865,renta,False,4.5,12,8,0
+Otoño,1430,renta,False,4.2,10,4,1
+Todo el Año,2700,Venta,False,4.5,18,9,0
+Todo el Año,4996,Venta,False,5.0,16,12,0
+Todo el Año,3773,Venta,False,4.2,8,11,1
+Todo el Año,650,renta,False,3.6,10,3,1
+Todo el Año,2856,Venta,False,4.8,13,5,0
+Todo el Año,20000,Venta,False,5.0,30,3,3
+Otoño,600,renta,False,4.6,8,7,0
+Todo el Año,454,renta,False,4.0,6,12,1
+Primavera,1420,renta,False,4.3,15,11,1
+Todo el Año,800,renta,False,4.6,10,5,0
+Todo el Año,571,renta,False,3.5,3,11,1
+Primavera,990,Venta,False,4.2,11,2,1
+Otoño,600,renta,False,4.6,8,12,0
+Todo el Año,2200,renta,False,5.0,16,7,0
+Primavera,2500,Venta,False,4.0,5,10,1
+Verano,565,renta,False,4.2,13,10,1
+Invierno,949,renta,False,4.1,7,7,1
+Otoño,336,renta,False,3.8,12,1,1
+Primavera,1022,renta,False,4.7,14,11,0
+Todo el Año,472,renta,False,4.9,25,7,0
+Primavera,1200,Venta,False,4.0,9,4,1
+Todo el Año,449,renta,False,4.3,9,8,1
+Todo el Año,5000,renta,False,4.9,22,6,3
+Todo el Año,1900,renta,False,4.9,11,10,0
+Otoño,384,renta,False,3.9,11,3,1
+Verano,450,renta,False,4.1,7,5,1
+Todo el Año,1353,renta,False,3.5,3,6,1
+Todo el Año,5500,renta,False,4.9,20,6,3
+Todo el Año,1900,renta,False,4.9,11,3,0
+Todo el Año,2800,renta,False,5.0,18,1,0
+Verano,1141,renta,False,4.3,16,3,1
+Todo el Año,3600,Venta,False,4.7,19,3,0
+Primavera,750,Venta,False,3.8,4,3,1
+Primavera,945,renta,False,4.6,18,12,0
+Todo el Año,7000,renta,False,5.0,30,4,3
+Todo el Año,3500,Venta,False,4.9,28,2,3
+Todo el Año,1750,renta,False,4.7,10,7,0
+Primavera,847,renta,False,4.2,8,12,1
+Verano,711,renta,False,4.3,16,8,1
+Otoño,374,renta,False,4.5,9,6,1
+Primavera,1450,renta,False,4.4,14,6,0
+Todo el Año,900,Venta,False,4.1,18,7,1
+Todo el Año,6000,renta,False,4.8,25,8,3
+Otoño,1700,Venta,False,4.6,8,10,0
+Invierno,560,renta,False,3.9,6,2,1
+Primavera,809,renta,False,4.2,13,12,1
+Otoño,1078,renta,False,4.3,5,9,1
+Todo el Año,613,renta,False,4.5,9,10,0
+Todo el Año,1800,renta,False,4.9,15,3,0
+Todo el Año,1800,renta,False,4.9,15,11,0
+Todo el Año,8000,Venta,False,4.6,7,10,0
+Todo el Año,439,renta,False,3.5,3,5,1
+Verano,1234,renta,False,4.0,9,4,1
+Todo el Año,1031,renta,False,4.8,11,1,0
+Todo el Año,488,renta,False,4.9,25,2,0
+Primavera,1437,renta,False,4.1,14,7,1
+Todo el Año,3800,Venta,False,4.9,14,10,0
+Todo el Año,5000,renta,False,5.0,25,9,3
+Primavera,1400,Venta,False,4.8,20,6,0
+Todo el Año,5000,renta,False,5.0,25,3,3
+Primavera,750,Venta,False,3.8,4,10,1
+Verano,765,renta,False,4.7,5,3,0
+Otoño,756,renta,False,3.8,12,4,1
+Todo el Año,1097,Venta,False,4.6,9,8,0
+Verano,850,Venta,False,4.5,20,6,0
+Invierno,449,renta,False,3.7,10,8,1
+Todo el Año,1500,renta,False,4.9,14,9,0
+Primavera,1145,renta,False,4.4,14,12,0
+Todo el Año,1300,renta,False,4.7,11,8,0
+Verano,354,renta,False,4.3,16,11,1
+Primavera,443,renta,False,4.4,6,10,1
+Otoño,1018,renta,False,3.8,9,10,1
+Primavera,1200,Venta,False,4.0,9,10,1
+Todo el Año,1900,renta,False,4.9,11,6,0
+Todo el Año,1200,renta,False,4.9,11,8,0
+Todo el Año,300,renta,False,4.3,10,8,0
+Verano,1100,Venta,False,4.3,10,7,1
+Todo el Año,1471,renta,False,4.6,8,9,0
+Invierno,1350,Venta,False,3.7,10,3,1
+Verano,320,renta,False,4.7,5,6,0
+Todo el Año,2200,renta,False,5.0,16,2,0
+Verano,1045,renta,False,4.7,15,11,0
+Todo el Año,1600,Venta,False,4.6,8,8,0
+Verano,850,Venta,False,4.5,20,2,0
+Todo el Año,1442,renta,False,4.7,19,7,0
+Todo el Año,1950,Venta,False,4.7,11,8,0
+Primavera,899,Venta,True,3.9,6,4,2
+Primavera,340,renta,False,4.5,10,10,0
+Primavera,899,Venta,True,3.9,6,9,2
+Todo el Año,2700,Venta,False,4.8,18,7,0
+Primavera,990,Venta,False,4.2,11,1,1
+Todo el Año,1493,renta,False,3.6,10,4,1
+Otoño,600,renta,False,4.6,8,4,0
+Verano,506,renta,False,4.4,8,2,1
+Verano,724,renta,False,4.0,9,3,1
+Todo el Año,599,renta,False,4.6,8,2,0
+Todo el Año,2800,Venta,False,4.7,14,12,0
+Todo el Año,1300,Venta,False,4.0,9,12,1
+Otoño,564,renta,False,4.2,9,10,1
+Todo el Año,1900,renta,False,4.9,11,6,0
+Todo el Año,4000,Venta,False,4.9,25,2,3
+Verano,1491,renta,False,4.0,9,6,1
+Todo el Año,2100,Venta,False,4.7,9,12,0
+Todo el Año,600,renta,False,4.5,7,12,0
+Otoño,930,renta,False,3.9,7,2,1
+Otoño,600,renta,False,4.6,8,2,0
+Todo el Año,950,renta,False,4.8,18,12,0
+Todo el Año,650,renta,False,4.5,8,8,0
+Todo el Año,700,renta,False,4.7,11,8,0
+Invierno,1250,Venta,False,4.1,7,5,1
+Todo el Año,6000,renta,False,4.8,25,10,3
+Todo el Año,2653,Venta,False,4.8,13,5,0
+Todo el Año,1600,renta,False,4.9,10,2,0
+Todo el Año,1000,renta,False,4.7,16,6,0
+Primavera,693,renta,False,4.1,15,11,1
+Todo el Año,1100,renta,False,4.5,8,4,0
+Todo el Año,1300,renta,False,4.7,8,1,0
+Todo el Año,1000,renta,False,4.8,6,5,0
+Todo el Año,5000,renta,False,5.0,25,9,3
+Todo el Año,1600,Venta,False,4.6,8,2,0
+Todo el Año,1286,renta,False,4.6,9,6,0
+Verano,980,Venta,False,4.0,10,2,1
+Todo el Año,17000,Venta,False,4.8,25,11,3
+Otoño,446,renta,False,4.2,9,7,1
+Primavera,1266,renta,False,4.1,14,7,1
+Verano,950,Venta,False,4.2,10,8,1
+Verano,950,renta,False,4.3,10,7,1
+Primavera,896,renta,False,4.4,6,4,1
+Todo el Año,650,Venta,False,3.6,13,10,1
+Todo el Año,1315,renta,False,4.0,19,7,1
+Otoño,922,renta,False,4.0,7,11,1
+Otoño,800,Venta,False,3.5,7,4,1
+Todo el Año,300,renta,False,4.3,10,3,1
+Todo el Año,300,renta,False,4.3,10,8,0
+Primavera,1241,renta,False,4.8,20,12,0
+Otoño,1150,Venta,False,3.8,9,7,1
+Todo el Año,1000,Venta,False,4.0,8,6,1
+Invierno,1350,Venta,False,3.9,7,4,1
+Todo el Año,364,renta,False,3.9,17,1,1
+Verano,450,renta,False,4.2,16,6,1
+Todo el Año,3421,Venta,False,4.9,11,4,0
+Invierno,1300,Venta,False,3.7,6,3,1
+Otoño,1250,Venta,False,3.9,11,2,1
+Primavera,441,renta,False,4.1,14,5,1
+Todo el Año,750,renta,False,4.7,9,7,0
+Todo el Año,825,renta,False,4.5,9,4,0
+Primavera,3454,Venta,False,4.5,10,7,0
+Todo el Año,1400,renta,False,4.5,9,8,0
+Todo el Año,3933,Venta,False,4.9,10,12,0
+Todo el Año,741,renta,False,4.9,25,5,0
+Primavera,353,renta,False,4.0,10,3,1
+Todo el Año,2500,renta,False,5.0,17,8,0
+Todo el Año,2300,Venta,False,4.6,10,12,0
+Todo el Año,1600,Venta,False,4.6,8,5,0
+Todo el Año,1000,renta,False,4.8,6,1,0
+Todo el Año,734,renta,False,4.4,9,12,0
+Todo el Año,1650,Venta,False,4.5,7,7,0
+Primavera,866,renta,False,3.8,4,4,1
+Verano,574,renta,False,4.7,15,10,0
+Primavera,726,renta,False,4.3,15,6,1
+Verano,411,renta,False,4.3,16,9,1
+Primavera,1334,renta,False,3.8,4,10,1
+Todo el Año,2500,Venta,False,4.8,11,4,0
+Otoño,1387,renta,False,3.9,8,1,1
+Verano,699,renta,False,4.2,16,5,1
+Todo el Año,1950,Venta,False,4.7,11,10,0
+Todo el Año,756,renta,False,4.6,8,6,0
+Verano,1190,renta,False,4.2,16,5,1
+Todo el Año,300,renta,False,4.3,10,10,0
+Todo el Año,686,renta,False,4.3,9,5,1
+Todo el Año,2863,Venta,False,4.9,15,12,0
+Verano,1332,renta,False,4.1,10,4,1
+Todo el Año,859,renta,False,3.9,17,8,1
+Todo el Año,1750,renta,False,4.7,10,6,0
+Todo el Año,1394,renta,False,4.9,28,7,0
+Todo el Año,561,renta,False,4.5,12,10,0
+Otoño,683,renta,False,3.5,7,4,1
+Otoño,968,renta,False,4.0,7,4,1
+Todo el Año,1300,renta,False,4.7,8,12,0
+Todo el Año,800,renta,False,4.8,15,6,0
+Primavera,950,Venta,False,4.1,18,11,1
+Todo el Año,2700,Venta,False,4.8,18,12,0
+Primavera,1800,Venta,False,4.7,10,3,0
+Primavera,2900,Venta,False,4.6,18,12,0
+Otoño,855,renta,False,3.8,9,6,1
+Todo el Año,1354,renta,False,4.1,18,5,1
+Todo el Año,1100,renta,False,4.5,8,7,0
+Primavera,1100,Venta,False,4.3,8,9,1
+Todo el Año,600,renta,False,4.5,7,3,0
+Todo el Año,950,renta,False,4.6,7,12,0
+Todo el Año,800,renta,False,4.6,10,5,0
+Verano,1393,renta,False,4.5,20,12,0
+Primavera,1270,renta,False,4.4,6,1,1
+Todo el Año,750,renta,False,4.7,9,6,0
+Primavera,302,renta,True,3.9,6,2,2
+Primavera,340,renta,False,4.5,10,4,1
+Otoño,358,renta,False,4.5,9,8,0
+Primavera,1032,renta,False,4.0,9,2,1
+Primavera,475,renta,False,4.0,9,1,1
+Primavera,2800,Venta,False,4.7,14,7,0
+Todo el Año,1400,renta,False,4.5,9,7,0
+Primavera,530,renta,False,4.2,8,9,1
+Todo el Año,4049,Venta,False,4.5,9,11,0
+Todo el Año,1750,Venta,False,4.5,9,12,0
+Todo el Año,15000,Venta,False,5.0,25,1,3
+Otoño,1265,renta,False,4.2,9,12,1
+Todo el Año,19000,Venta,False,4.9,27,1,3
+Todo el Año,1031,Venta,False,4.5,8,1,0
+Todo el Año,678,renta,False,4.5,18,6,0
+Todo el Año,541,renta,False,4.0,9,8,1
+Todo el Año,2000,renta,False,4.9,14,12,0
+Todo el Año,7000,renta,False,5.0,30,8,3
+Todo el Año,7000,renta,False,5.0,30,6,3
+Primavera,736,renta,False,4.1,7,6,1
+Todo el Año,6800,renta,False,4.9,27,9,3
+Todo el Año,3000,Venta,False,4.9,22,8,0
+Verano,1473,renta,False,4.5,20,7,0
+Todo el Año,1400,Venta,False,4.3,8,3,1
+Primavera,686,renta,False,4.0,10,2,1
+Invierno,460,renta,False,4.7,16,9,0
+Verano,450,renta,False,4.1,7,12,1
+Primavera,850,Venta,False,3.7,14,1,1
+Todo el Año,390,renta,False,4.2,8,5,1
+Verano,831,renta,False,4.2,13,5,1
+Todo el Año,1450,renta,False,4.6,9,1,0
+Todo el Año,2500,renta,False,5.0,17,2,0
+Todo el Año,1500,renta,False,4.9,7,6,0
+Todo el Año,680,renta,False,4.5,12,8,0
+Primavera,457,renta,False,4.3,8,11,1
+Otoño,802,renta,False,3.8,12,5,1
+Todo el Año,619,renta,False,4.5,9,5,0
+Todo el Año,750,renta,False,4.7,9,7,0
+Todo el Año,4700,Venta,False,4.8,13,5,0
+Todo el Año,1402,renta,False,4.6,7,2,0
+Otoño,456,renta,False,3.5,7,12,1
+Todo el Año,1260,renta,False,4.6,8,5,0
+Todo el Año,980,Venta,False,4.0,19,12,1
+Primavera,1246,renta,False,4.8,20,2,0
+Verano,950,Venta,False,4.2,12,4,1
+Verano,1402,renta,False,4.1,14,12,1
+Primavera,785,renta,False,4.1,7,8,1
+Otoño,487,renta,False,4.3,5,12,1
+Verano,2300,Venta,False,4.4,8,8,1
+Otoño,1050,Venta,False,3.9,6,4,1
+Todo el Año,2247,Venta,False,4.6,13,8,0
+Primavera,600,renta,False,4.6,12,11,0
+Verano,990,renta,False,4.5,20,8,0
+Primavera,650,renta,False,4.7,10,10,0
+Primavera,862,renta,False,4.1,14,1,1
+Primavera,600,renta,False,4.6,12,5,0
+Verano,1050,Venta,False,4.2,13,7,1
+Primavera,900,Venta,False,4.1,14,7,1
+Todo el Año,1800,renta,False,4.9,15,8,0
+Invierno,817,renta,False,4.1,7,8,1
+Todo el Año,2327,Venta,False,4.7,11,6,0
+Todo el Año,2500,Venta,False,4.8,11,8,0
+Primavera,821,renta,True,3.9,6,1,2
+Todo el Año,956,renta,False,4.4,11,3,0
+Primavera,899,Venta,True,3.9,6,4,2
+Todo el Año,1800,Venta,False,4.4,9,8,0
+Todo el Año,569,renta,False,4.5,12,7,0
+Otoño,538,renta,False,4.5,9,12,0
+Primavera,1300,Venta,False,4.4,6,7,1
+Todo el Año,390,renta,False,4.2,8,7,1
+Todo el Año,1300,renta,False,4.7,11,12,0
+Primavera,650,renta,False,4.7,10,7,0
+Todo el Año,2100,Venta,False,4.7,9,8,0
+Otoño,1100,Venta,False,4.0,7,5,1
+Primavera,613,renta,False,4.3,15,7,1
+Todo el Año,7000,renta,False,5.0,30,5,3
+Todo el Año,750,renta,False,4.7,9,7,0
+Todo el Año,850,renta,False,4.7,10,7,0
+Primavera,915,renta,False,4.8,20,2,0
+Otoño,947,renta,False,4.2,9,4,1
+Todo el Año,750,renta,False,4.7,9,1,0
+Todo el Año,2600,Venta,False,4.7,10,4,0
+Todo el Año,680,renta,False,4.5,12,10,0
+Verano,980,Venta,False,4.0,10,4,1
+Todo el Año,700,renta,False,4.7,11,5,0
+Verano,520,renta,False,4.3,10,10,1
+Todo el Año,1500,renta,False,4.9,7,4,0
+Invierno,438,renta,False,3.7,6,6,1
+Otoño,1144,renta,False,4.2,9,6,1
+Todo el Año,464,renta,False,4.6,9,2,0
+Verano,1492,renta,False,4.1,14,5,1
+Invierno,1181,renta,False,4.0,5,2,1
+Todo el Año,1800,renta,False,4.9,15,11,0
+Todo el Año,3435,Venta,False,5.0,18,10,0
+Otoño,367,renta,False,4.5,9,12,0
+Todo el Año,1479,renta,False,4.0,6,2,1
+Verano,1100,Venta,False,4.3,10,1,1
+Todo el Año,1200,renta,False,4.4,11,3,0
+Todo el Año,705,renta,False,4.9,25,12,0
+Todo el Año,3000,Venta,False,4.9,22,10,0
+Verano,1061,renta,False,4.2,12,7,1
+Todo el Año,320,renta,False,4.6,13,8,0
+Todo el Año,1500,Venta,False,4.0,6,1,1
+Primavera,1200,Venta,False,4.0,9,10,1
+Verano,584,renta,False,4.3,10,6,1
+Todo el Año,2900,Venta,False,4.7,16,12,0
+Todo el Año,3000,Venta,False,4.8,6,8,0
+Verano,980,Venta,False,4.0,10,6,1
+Primavera,1400,venta,False,4.8,20,7,0
+Todo el Año,1900,venta,False,4.5,12,7,0
+Todo el Año,302,renta,False,4.6,13,7,0
+Todo el Año,198,renta,False,4.6,13,7,0
+Todo el Año,198,renta,False,4.6,13,7,0
+Todo el Año,1800,venta,False,4.5,12,7,0
+Todo el Año,1800,venta,False,4.5,12,7,0
+Todo el Año,1800,venta,False,4.5,12,7,0
+Todo el Año,1800,venta,False,4.5,12,7,0
+Todo el Año,1800,venta,False,4.5,12,7,0
+Todo el Año,1900,venta,False,4.5,12,7,0
+Todo el Año,1900,venta,False,4.5,12,7,0
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1900,venta,False,4.5,12,7,0
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1000,venta,False,4.0,8,7,1
+Primavera,1400,venta,False,4.8,20,7,0
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,1000,venta,False,4.0,8,7,1
+Todo el Año,200,renta,False,4.6,13,7,0

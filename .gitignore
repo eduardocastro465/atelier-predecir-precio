@@ -19,3 +19,6 @@ __pycache__/
 # Editor/IDE
 .vscode/
 .idea/
+
+# Notebook de clustering
+clustering.ipynb
