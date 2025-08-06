@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
+import numpy as np
 import logging
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app)  # Permitir CORS para todas las rutas
 logging.basicConfig(level=logging.DEBUG)
 
 # Cargar modelos entrenados
@@ -24,7 +25,7 @@ features = [
     "tipoCuello",
     "color",
     "tipoHombro",
-    "cintura"
+    "cintura",
 ]
 
 @app.route('/predecir_precio', methods=['POST'])
@@ -57,7 +58,19 @@ def predecir_precio():
         # Codificar usando los encoders guardados
         for col in df_input.select_dtypes(include=["object", "bool"]).columns:
             if col in encoders:
-                df_input[col] = encoders[col].transform(df_input[col].astype(str))
+                le = encoders[col]
+                clases = list(le.classes_)
+
+                # Agregar un marcador para valores desconocidos si no existe
+                if "__desconocido__" not in clases:
+                    clases.append("__desconocido__")
+                    le.classes_ = np.array(clases)
+
+                # Reemplazar valores no vistos por "__desconocido__"
+                df_input[col] = df_input[col].apply(
+                lambda x: x if x in le.classes_ else "__desconocido__"
+                )
+                df_input[col] = le.transform(df_input[col].astype(str))
 
         # Seleccionar modelo según tipo de transacción
         if data["opcionesTipoTransaccion"] == 1:
