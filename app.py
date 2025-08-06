@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG)
 # Cargar modelos entrenados
 modelo_renta = joblib.load('modelo_renta.pkl')
 modelo_venta = joblib.load('modelo_venta.pkl')
-encoder = joblib.load('LabelEncoder.pkl')  # Encoder entrenado en Jupyter
+encoders = joblib.load('LabelEncoders.pkl')  # Diccionario de encoders por columna
 
 app.logger.debug('✅ Modelos cargados correctamente (renta, venta, encoder)')
 
@@ -22,12 +22,10 @@ features = [
     "tipoCuello",
     "color",
     "tipoHombro",
-    "nombre",
-    "descripcion"
+    "cintura"
 ]
 
-
-@app.route('/predecir', methods=['POST'])
+@app.route('/predecir_precio', methods=['POST'])
 def predecir_precio():
     try:
         data = request.json
@@ -38,7 +36,7 @@ def predecir_precio():
             if col not in data:
                 raise ValueError(f"Falta el campo requerido: {col}")
 
-        # Convertir venta/renta a número como en Jupyter
+        # Convertir venta/renta a número
         mapping_tipo = {"venta": 0, "renta": 1}
         tipo_valor = str(data["opcionesTipoTransaccion"]).strip().lower()
         if tipo_valor not in mapping_tipo:
@@ -48,9 +46,16 @@ def predecir_precio():
         # Crear DataFrame
         df_input = pd.DataFrame([data])
 
-        # Aplicar el mismo preprocesamiento que en Jupyter
+        # Normalizar columnas que venían como listas
+        if "talla" in df_input.columns and isinstance(df_input.loc[0, "talla"], list):
+            df_input.loc[0, "talla"] = ", ".join(df_input.loc[0, "talla"])
+        if "color" in df_input.columns and isinstance(df_input.loc[0, "color"], list):
+            df_input.loc[0, "color"] = ", ".join(df_input.loc[0, "color"])
+
+        # Codificar usando los encoders guardados
         for col in df_input.select_dtypes(include=["object", "bool"]).columns:
-            df_input[col] = encoder.fit_transform(df_input[col].astype(str))
+            if col in encoders:
+                df_input[col] = encoders[col].transform(df_input[col].astype(str))
 
         # Seleccionar modelo según tipo de transacción
         if data["opcionesTipoTransaccion"] == 1:
