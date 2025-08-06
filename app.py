@@ -1,73 +1,74 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
-import numpy as np
 import logging
 
 app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 # Cargar modelos entrenados
-scaler = joblib.load('scaler_cluster.pkl')
-encoder = joblib.load('encoder_cluster.pkl')
-kmeans = joblib.load('kmeans_cluster_model.pkl')
-pca = joblib.load('pca_2d_model.pkl')
+modelo_renta = joblib.load('modelo_renta.pkl')
+modelo_venta = joblib.load('modelo_venta.pkl')
+encoder = joblib.load('LabelEncoder.pkl')  # Encoder entrenado en Jupyter
 
-app.logger.debug('✅ Modelos cargados correctamente (scaler, encoder, kmeans, pca)')
+app.logger.debug('✅ Modelos cargados correctamente (renta, venta, encoder)')
 
-# Columnas esperadas
-categoricas = ['producto_temporada', 'tipo_transaccion']
-numericas = ['monto_total', 'mes_transaccion', 'vestido_en_oferta',
-             'vestido_rating_promedio', 'vestido_review_count']
+# Columnas esperadas (mismas que en tu Jupyter)
+features = [
+    "tipoCola",
+    "altura",
+    "estilo",
+    "talla",
+    "tipoCuello",
+    "color",
+    "tipoHombro",
+    "nombre",
+    "descripcion"
+]
 
-@app.route('/')
-def home():
-    return render_template('formulario.html')
 
-@app.route('/predict_cluster', methods=['POST'])
-def predict_cluster():
+@app.route('/predecir', methods=['POST'])
+def predecir_precio():
     try:
-        # Recoger datos del formulario
-        data = {
-            'producto_temporada': request.form['producto_temporada'],
-            'tipo_transaccion': request.form['tipo_transaccion'],
-            'monto_total': float(request.form['monto_total']),
-            'mes_transaccion': int(request.form['mes_transaccion']),
-            'vestido_en_oferta': int(request.form['vestido_en_oferta']),
-            'vestido_rating_promedio': float(request.form['vestido_rating_promedio']),
-            'vestido_review_count': int(request.form['vestido_review_count'])
-        }
+        data = request.json
+        app.logger.debug(f"📥 JSON recibido: {data}")
 
-        app.logger.debug(f"📥 Datos recibidos: {data}")
+        # Validar que lleguen todas las columnas necesarias
+        for col in features + ["opcionesTipoTransaccion"]:
+            if col not in data:
+                raise ValueError(f"Falta el campo requerido: {col}")
+
+        # Convertir venta/renta a número como en Jupyter
+        mapping_tipo = {"venta": 0, "renta": 1}
+        tipo_valor = str(data["opcionesTipoTransaccion"]).strip().lower()
+        if tipo_valor not in mapping_tipo:
+            raise ValueError(f"Valor inválido en opcionesTipoTransaccion: {tipo_valor}")
+        data["opcionesTipoTransaccion"] = mapping_tipo[tipo_valor]
 
         # Crear DataFrame
         df_input = pd.DataFrame([data])
 
-        # Escalar numéricos
-        X_num = scaler.transform(df_input[numericas])
+        # Aplicar el mismo preprocesamiento que en Jupyter
+        for col in df_input.select_dtypes(include=["object", "bool"]).columns:
+            df_input[col] = encoder.fit_transform(df_input[col].astype(str))
 
-        # Codificar categóricos
-        X_cat = encoder.transform(df_input[categoricas])
+        # Seleccionar modelo según tipo de transacción
+        if data["opcionesTipoTransaccion"] == 1:
+            modelo = modelo_renta
+        else:
+            modelo = modelo_venta
 
-        # Unir
-        X_final = np.concatenate([X_num, X_cat], axis=1)
-
-        # Predecir clúster
-        cluster = kmeans.predict(X_final)[0]
-
-        # Reducir dimensión para visualización opcional
-        X_pca = pca.transform(X_final)
+        # Predecir
+        X_input = df_input[features]
+        prediccion = modelo.predict(X_input)[0]
 
         return jsonify({
-            'cluster_asignado': int(cluster),
-            'pca': {
-                'PC1': float(X_pca[0][0]),
-                'PC2': float(X_pca[0][1])
-            }
+            "precio_estimado": float(prediccion),
+            "tipo_transaccion": "renta" if data["opcionesTipoTransaccion"] == 1 else "venta"
         })
 
     except Exception as e:
-        app.logger.error(f'🚨 Error en la predicción: {str(e)}')
+        app.logger.error(f'🚨 Error: {str(e)}')
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
